@@ -17,7 +17,7 @@ mkTarget {
           inherit (cfg) monitor;
           path = image;
         };
-        splash = false;
+        splash = lib.mkDefault false;
       };
     };
 }
